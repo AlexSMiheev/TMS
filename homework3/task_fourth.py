@@ -13,4 +13,4 @@ for key in set(list(a.keys()) + list(b.keys())):
     else:
         ab[key].append(None)
 
-print(ab)
+print(sorted(ab.items()))
