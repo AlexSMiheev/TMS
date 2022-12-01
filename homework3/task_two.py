@@ -1,2 +1,1 @@
-user_name = list(str(input('Введите имя и фамилию: ')))
-print("".join(user_name[::-1]))
+print(" ".join(str(input('Введите имя и фамилию: ')).split(' ')[::-1]))
