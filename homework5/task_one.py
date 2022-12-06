@@ -27,6 +27,9 @@ while True:
                                     result['operator'] = phones_db[key][n]
                                 elif n == 'None':
                                     result['operator'] = phones_db[key]['None']
+                        else:
+                            result['success'] = False
+                            result['description'] = 'Operator code check not passed'
                 else:
                     result['success'] = False
                     result['description'] = 'Country code check not passed'
