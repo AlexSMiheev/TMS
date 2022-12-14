@@ -6,7 +6,7 @@ def get_winners(res):
     while len(winners) <= 2:
         winners.append(res.index(max(res)) + 1)
         res.remove(max(res))
-    print(winners)
+    return winners
 
 
-get_winners(results)
+print(get_winners(results))
