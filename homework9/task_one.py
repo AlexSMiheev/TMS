@@ -38,7 +38,9 @@ class Triangle:
             return False
 
     def __eq__(self, other):
-        return self.a == other.a and self.b == other.b and self.c == other.c
+        p1 = self.a + self.b + self.c
+        p2 = other.a + other.b + other.c
+        return p1 == p2
 
 
 t1 = Triangle(5, 4, 3)
