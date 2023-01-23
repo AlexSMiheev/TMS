@@ -1,0 +1,16 @@
+Id: 1
+Related requirement - Размер изделия.
+Feature: Ручка.
+Name: Размер ручки.
+Preconditions:
+    1. Кружка распакована.
+    2. Достать штангельциркуль.
+Steps:
+    1. Установить кружку на ровную поверхность.
+    2. Измерить диаметр отверстия в ручке кружки.
+Actual result: Диаметр не соответствует спецификации.
+Expected result: Диаметр соответствует спецификации.
+Priority: Critical
+Severity: High
+Related bug: None
+Post - conditions: Упаковать кружку обратно.
