@@ -6,7 +6,7 @@ AVAILABLE_COLORS = ['blue', 'green', 'brown', 'grey', 'black']
 
 class User:
 
-    def __init__(self, name: str, nickname: str, age: int, eye_color: str):
+    def __init__(self, name: str, nickname: str, age: int, eye_color: str) -> None:
         self.name = name
         self.nickname = nickname
         self.age = age
